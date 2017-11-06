@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class House extends React.Component {
+class House extends Component {
   render() {
     return (
-      <h2>this is a house</h2>
+      <div className="house">this is house <b>{this.props.houseName}</b></div>
     );
   }
 }
