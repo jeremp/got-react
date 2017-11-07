@@ -27,12 +27,10 @@ class HousesList extends Component {
     render() {
         return (
             <div>
-                <h2>this is a LIST of houses</h2>
-                <p>It exists {this.state.houses.length} houses</p>
-                
+                <h2>Here are {this.state.houses.length} the known Houses</h2>                                
                 <div>
                     {this.state.houses.map((house,index) =>
-                      <House houseName={house.name} key={index}/>
+                      <House houseName={house.name} houseDataUrl={house.url} key={index} />
                     )}
                 </div>
             </div>

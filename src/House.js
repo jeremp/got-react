@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 
 class House extends Component {
-  render() {
+  
+  constructor(){
+    super();    
+    this.state = {
+      dataLoaded: false,
+      members:[]
+    };
+  }
+  
+  render() {    
     return (
-      <div className="house">this is house <b>{this.props.houseName}</b></div>
+      <div className="house">{this.props.houseName}</div>
     );
+  }
+
+  _loadData(){
+    
   }
 }
 

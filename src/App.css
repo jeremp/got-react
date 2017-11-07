@@ -28,5 +28,7 @@
 }
 
 .house {
-  padding: 5px;
+  padding: 2em;
+  margin: 1em;
+  background-color: beige ;
 }
