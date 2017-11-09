@@ -28,7 +28,15 @@
 }
 
 .house {
+  cursor: pointer;
   padding: 2em;
-  margin: 1em;
+  margin: 0.4em;
+  font-weight: bold;
   background-color: beige ;
+}
+
+.house:hover {
+  padding: 2em;
+  margin: 0.4em;
+  background-color: darkgray ;
 }
