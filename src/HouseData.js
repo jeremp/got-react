@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Character extends Component {
+class HouseData extends Component {
   
   constructor(){
     super();    
@@ -10,13 +10,13 @@ class Character extends Component {
   
   render() {    
     return (
-      <div className="character">i'm a char</div>
+        <div>
+            This is some Data          
+        </div>
     );
   }
 
-  _loadData(){
-    
-  }
+  _loadData(){}
 }
 
-export default Character;
+export default HouseData;

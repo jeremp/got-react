@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Character from './Character.js'
 import Glyphicon from 'react-bootstrap/lib/Glyphicon';
 
 class House extends Component {
